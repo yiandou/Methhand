@@ -1,0 +1,11 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{methhand}[12/7/2023 Methacademy LaTeX shenanigans]
+\RequirePackage{graphicx}
+
+\newcommand{\img}[3]{\includegraphics[width=#1,height=#2]{#3}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\DeclareOption*{\PackageWarning{methhand}{Unknown ‘\CurrentOption’}}
